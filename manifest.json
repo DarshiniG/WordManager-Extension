@@ -15,8 +15,8 @@
   "storage",
   "contextMenus",
   "clipboardRead",
-	"clipboardWrite",
-	"http://thesaurus.altervista.org/thesaurus/*"
+	"clipboardWrite"
+	
 ],
 
 "background": {
