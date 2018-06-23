@@ -23,7 +23,7 @@
 "background": {
     "scripts": [
     "popup.js",
-	
+	"synonyms.js"
 ]
 },
 
@@ -32,6 +32,9 @@
     , "16": "icon.png"
     , "32": "icon19.png"
     , "48": "icon48.png"
+<<<<<<< HEAD
+},
+=======
 }
 
 "icons": {
@@ -46,6 +49,20 @@
 
 
 
+>>>>>>> bfa4c68d3169174ebf182f16e08c0f37702ca609
 
+ "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "js/jquery.js",
+        "js/content.js",
+		"content.js"
+      ]
+    }
+  ]
 
 }
