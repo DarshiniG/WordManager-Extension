@@ -22,7 +22,7 @@
 "background": {
     "scripts": [
     "popup.js",
-	
+	"synonyms.js"
 ]
 },
 
@@ -31,15 +31,21 @@
     , "16": "icon.png"
     , "32": "icon19.png"
     , "48": "icon48.png"
-}
+},
 
-
-
-
-
-
-
-
+ "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "js/jquery.js",
+        "js/content.js",
+		"content.js"
+      ]
+    }
+  ]
 
 
 }
