@@ -1,5 +1,4 @@
 
-
 /*highlighter*/
 function addHighlightableExpression(info, tab) {
     chrome.tabs.query({
