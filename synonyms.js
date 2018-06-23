@@ -1,5 +1,4 @@
 
-
 // ID to manage the context menu entry
 var cmid;
 var submenus = [];
